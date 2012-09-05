@@ -2,7 +2,6 @@
 class ControllerExtensionPayment extends Controller {
 	public function index() {
 
-		die("here");
 		$this->load->language('extension/payment');
 		 
 		$this->document->setTitle($this->language->get('heading_title')); 
